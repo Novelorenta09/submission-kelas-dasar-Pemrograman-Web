@@ -165,7 +165,7 @@ blockquote::before{
 
 /* style footer */
 footer{
-    padding: 20px;
+    padding: 20px 10px;
     background-color: rgb(199, 199, 199);
     text-align: center;
     font-size: 12px;
