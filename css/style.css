@@ -97,8 +97,6 @@ blockquote::before{
     content:'"';
 }
 .box{
-    /* box-shadow: 1px 2px 6px gray; */
-    /* display: flex; */
     margin: 10px 0;
 }
 #home>img{
@@ -186,9 +184,10 @@ footer{
 #galeri>.card>.sub-card{
     margin: 12px 10px;
     box-shadow: 1px 2px 3px gray;
+    transition: all .3s ease-in-out;
 }
 #galeri>.card>.sub-card>:hover{
-    background-color: rgb(211, 207, 207);
+    background-color: rgb(93, 220, 144);
 }
 .card>.sub-card>img{
     width: 250px;
@@ -293,6 +292,10 @@ textarea{
     padding: 5px 10px;
     box-shadow: 1px 2px 3px gray;
     margin-bottom: 30px;
+    transition: all .3s ease-in-out;
+}
+.box-album:hover{
+    box-shadow: 1px 1px 2px #068a11;
 }
 #album .sub-album div:nth-child(2){
     scale: 1.1;
